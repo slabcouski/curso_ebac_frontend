@@ -20,6 +20,7 @@ header li a{
     color: #f5f6fa;
     text-decoration: none;
     margin: auto 5px;
+    text-transform: uppercase;
 }
 .container {
     width: 1366px;
@@ -40,12 +41,13 @@ section h2 {
 .articles article {
     margin-bottom: 50px;
     width: 30%;
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 29px 52px 0px rgba(0, 0, 0, 0.4), 0px 25px 16px 0px rgba(0, 0, 0, 0.2);
 }
 .articles article img {
     height: 180px;
-    margin: 10px auto;
+    margin: 30px auto 10px;
     display: flex;
     align-items: center;
     border-radius: 10px;
@@ -54,10 +56,12 @@ section h2 {
     text-align: center;
 }
 .articles article h3 {
-    margin-top: 8px;
-    margin-bottom: 8px;
-    margin-left: 15px ;
+    margin: 8px 30px;
     font-size: 24px;
+}
+.articles article p {
+    margin: 0 30px 10px;
+    text-align: justify;
 }
 .articles article a {
     color: #fff;
@@ -72,15 +76,12 @@ section h2 {
 .articles article a:hover {
     text-decoration: underline;
 }
-.articles article p {
-    margin: 0 10px 10px 15px;
-}
 .articles article p,
 .articles article a {
     font-family: Arial, Helvetica, sans-serif;
 }
 #sports {
-    background-color: hsla(251, 100%, 51%, 80%);
+    background-color:  rgba(80, 159, 233, 0.582);
 }
 #sports h2,
 #sports .articles article a {
@@ -97,11 +98,17 @@ section h2 {
     text-align: center;
     border-radius: 10px;
 }
+#entertainment{
+    background-color: rgba(253, 0, 0, 0.1);
+}
 #entertainment h2,
 #entertainment .articles article a {
     background-color: red;
     text-align: center;
     border-radius: 10px;
+}
+#tech{
+    background-color: rgba(252, 1, 156, 0.1);
 }
 #tech h2,
 #tech .articles article a {
